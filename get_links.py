@@ -1,3 +1,10 @@
+################################################################
+# This script takes in a email subject and matches it with the #
+# all the support web links we have scrapped from the website ##
+# and gives back top 3 matching links as output, this narrows ##
+# down the webpages that the bot looks for to answer the query #
+################################################################
+
 import re
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
